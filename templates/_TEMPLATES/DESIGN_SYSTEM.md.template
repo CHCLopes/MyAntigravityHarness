@@ -1,0 +1,63 @@
+# DESIGN_SYSTEM.md — Especificação Visual (Frontend)
+
+## Cor & Tipografia
+- Paleta de cores (Primary, Secondary, Neutral, Accents com hex/RGB)
+- Font Families, Font Weights e tamanhos de fonte recomendados
+- Suporte a Temas (Configurações de Dark Mode / Light Mode)
+
+## Componentes UI Base
+### Button
+- **Variantes**: Primary, Secondary, Danger, Outline
+- **Estados**: Default, Hover, Active, Disabled, Focus
+- **Acessibilidade**: ARIA attributes e foco visível
+
+### Input
+- **Variantes**: Text, Email, Password, Search
+- **Estados**: Default, Focus, Error, Disabled
+- **Acessibilidade**: Associar labels com IDs correspondentes
+
+### Card
+- **Variantes**: Default, Hoverable, Selected
+- **Propriedades**: Padding, Border, Shadow
+
+### Modal
+- **Estrutura**: Backdrop, Content Area, Close Button, Header, Body, Footer
+- **Comportamento**: Foco confinado (Focus trap), fechamento via ESC
+
+### Navigation
+- **Estrutura**: Topbar / Sidebar
+- **Comportamento**: Responsivo, Toggle de menu mobile
+
+## Grid & Layout
+- Breakpoints responsivos (Mobile: 320px, Tablet: 768px, Desktop: 1024px, Large: 1440px)
+- Escala de Espaçamento (Padding, Margin, Gap)
+- Padrões de Layout (Sidebar layout, Container max-width, Flex/Grid configurations)
+
+## Tokens Tailwind (se aplicável)
+```json
+{
+  "theme": {
+    "extend": {
+      "colors": {
+        "brand": {
+          "primary": "#3B82F6",
+          "secondary": "#1E3A8A"
+        }
+      },
+      "spacing": {
+        "128": "32rem"
+      }
+    }
+  }
+}
+```
+
+## Icon System
+- Biblioteca recomendada: [ex: Lucide Icons, Heroicons]
+- Tamanhos padrão (Small: 16px, Medium: 24px, Large: 32px)
+- Convenções de uso e alinhamento vertical
+
+## Accessibility & Semantics
+- Conformidade WCAG (Nível AA ou AAA)
+- Semântica de HTML (Uso de main, header, footer, nav, section, article)
+- Estados de Foco visíveis e acessibilidade de teclado

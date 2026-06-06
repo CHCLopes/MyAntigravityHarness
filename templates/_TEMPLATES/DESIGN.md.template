@@ -1,0 +1,35 @@
+# DESIGN.md — Especificação Técnica (Backend/Infra)
+
+## Arquitetura Alto Nível
+<!-- Insira aqui o diagrama Mermaid ou descrição em texto da arquitetura -->
+```mermaid
+graph TD
+    Client[Client] --> WebSocket[WebSocket Connection]
+    WebSocket --> Core[Core Engine]
+    Core --> DB[(Database)]
+```
+
+## Stack & Rationale
+- Backend: [Linguagem/Framework — Por quê]
+- Database: [Tipo/Tecnologia — Por quê]
+- Infrastructure: [Hospedagem/Provedor — Por quê]
+
+## Padrões de Código
+- Convenções de nomenclatura (Naming conventions)
+- Estrutura de pastas do projeto
+- Princípios de Clean Code / Clean Architecture adotados
+
+## Testing Strategy
+- Cobertura de testes esperada (%)
+- Tipos de teste (Unitários / Integração / E2E)
+- Critérios de aceitação e sucesso dos testes
+
+## Performance Targets
+- Latência máxima: [ex: < 100ms]
+- Throughput suportado: [ex: 1000 rps]
+- Consumo de recursos: [ex: < 512MB RAM]
+
+## Security Constraints
+- Autenticação e Autorização (Mecanismo)
+- Sensibilidade de dados (Criptografia / Mascaramento)
+- Conformidades regulatórias (ex: SOC2, HIPAA)

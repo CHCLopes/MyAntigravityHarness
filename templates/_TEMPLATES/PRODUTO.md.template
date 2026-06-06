@@ -1,0 +1,32 @@
+# PRODUTO.md — Especificação de Negócio
+
+## Visão (1-2 parágrafos)
+[Descrição clara do que é, por que existe e qual problema resolve]
+
+## Escopo
+### In
+- Feature A: [Breve descrição]
+- Feature B: [Breve descrição]
+
+### Out
+- Non-feature X (justificativa): [Por que não faz parte do escopo atual]
+
+## Acceptance Criteria (por feature)
+### Feature A
+- [ ] AC 1: [verificável]
+- [ ] AC 2: [verificável]
+- [ ] AC 3: [verificável]
+
+### Feature B
+- [ ] AC 1: [verificável]
+- [ ] AC 2: [verificável]
+
+## Constraints
+- Técnicas: [Exemplo: Tempo de resposta inferior a 200ms]
+- Negócio: [Exemplo: Compliance com GDPR/LGPD]
+- Segurança: [Exemplo: Criptografia em repouso]
+
+## Decision Log
+| Data | Decisão | Justificativa | Impacto |
+|---|---|---|---|
+| YYYY-MM-DD | [Decisão tomada] | [Por que foi tomada] | [O que muda no projeto] |
